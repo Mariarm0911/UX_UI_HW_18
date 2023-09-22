@@ -2,11 +2,12 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: #c69289;
 }
+
 .icons img {
   width: 30px;
 }
-/* Grid CSS */
 
+/* Grid CSS */
 #heroGrid {
   margin: 0px 5%;
   display: grid;
@@ -14,21 +15,18 @@ body {
   height: 70vh;
   grid-template-rows: 100%;
   grid-template-columns: 100%;
-  grid-template-areas:
-  "featuredProduct";
+  grid-template-areas: "featuredProduct";
 }
 
 #featuredProduct {
   grid-area: featuredProduct;
-  background-image: url("images/Background\ Photo.jpeg");
+  background-image: url("/images/Background\ Photo.jpeg"); /* Removed escape character */
 }
 
 #secondaryitem {
   grid-area: secondaryitem;
-  background-image: url("images/My\ Photo.jpeg");
+  background-image: url("/images/My Photo.jpeg"); /* Removed escape character */
 }
-
-
 
 #headline {
   background-color: rgba(255, 255, 255, 0.694);
@@ -51,7 +49,6 @@ body {
 }
 
 /* Category Grid CSS */
-
 .subHeading {
   text-align: center;
   border-bottom: 2px solid black;
@@ -64,27 +61,22 @@ body {
   display: grid;
   grid-template-rows: 350px 350px 350px 300px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-  "part1 part2"
-  "part1 part2"
-  "part1 part3"
-  "part1 part3"
-  ;
+  grid-template-areas: "part1 part2" "part1 part2" "part1 part3" "part1 part3";
 }
 
 #part1 {
   grid-area: part1;
-  background-image: url("images/My\ Photo.jpeg");
-
+  background-image: url("/images/My Photo.jpeg"); /* Removed escape character */
 }
+
 #part2 {
   grid-area: part2;
-  background-image: url("images/skill1.jpg");
+  background-image: url("/images/skill1.jpg");
 }
 
 #part3 {
   grid-area: part3;
-  background-image: url("images/skill2.jpeg");
+  background-image: url("../images/skill2.jpeg");
 }
 
 #categoryGrid2 {
@@ -92,28 +84,22 @@ body {
   display: grid;
   grid-template-rows: 1000px 350px 1000px 350px 1000px 350px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-  "part4 part4 part4"
-  "part4 part4 part4"
-  "part5 part5 part5"
-  "part5 part5 part5"
-  "part6 part6 part6"
-  "part6 part6 part6"
-  ;
+  grid-template-areas: "part4 part4 part4" "part4 part4 part4" "part5 part5 part5" "part5 part5 part5" "part6 part6 part6" "part6 part6 part6";
 }
+
 #part4 {
   grid-area: part4;
-  background-image: url("images/project1.jpg");
+  background-image: url("/images/project1.jpg");
 }
 
 #part5 {
   grid-area: part5;
-  background-image: url("images/project2.jpg");
+  background-image: url("/images/project2.jpg");
 }
 
 #part6 {
   grid-area: part6;
-  background-image: url("images/project3.png");
+  background-image: url("/images/project3.png");
 }
 
 .categoryGridArea {
@@ -125,6 +111,7 @@ body {
   display: grid;
   align-content: end;
 }
+
 .categoryGridArea2 {
   background-position: center;
   background-size: cover;
@@ -134,8 +121,9 @@ body {
   display: grid;
   align-content: end;
 }
+
 .heading {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 15px;
   height: 25px;
   color: white;
@@ -143,42 +131,47 @@ body {
   border-bottom: 5px solid #302924;
 }
 
-
 /* Navigation CSS */
 /* CHECK OUT THIS CODE BELOW IF YOU WANT TO GET A REFRESHER ON FLEX */
-
 #navBar {
   display: flex;
   flex-direction: row;
   margin: 0px 5%;
 }
+
 #navBar h1 {
   width: 50%;
   font-weight: 500;
 }
+
 #navBar p {
   font-size: 24px;
 }
+
 #navigation {
   display: flex;
   width: 50%;
   align-items: center;
   justify-content: space-evenly;
 }
+
 #navigation p {
   cursor: pointer;
   text-decoration: none;
 }
+
 .icons {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 25%;
 }
+
 .icons img {
   margin: 15px;
   cursor: pointer;
 }
+
 .highlight {
   color: #f7efeb;
   font-weight: 700;
@@ -186,7 +179,6 @@ body {
 }
 
 /* Typography CSS */
-
 h2 {
   font-size: 60px;
   margin: 0px 0px;
@@ -205,7 +197,6 @@ h4 {
   font-weight: 400;
   font-size: 22px;
 }
-
 
 #headline p {
   max-width: 1000px;
@@ -229,5 +220,4 @@ h4 {
     position: static;
     margin: 20px;
   }
- 
 }

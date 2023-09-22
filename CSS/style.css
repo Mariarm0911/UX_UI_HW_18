@@ -20,12 +20,12 @@ body {
 
 #featuredProduct {
   grid-area: featuredProduct;
-  background-image: url("/images/Background\ Photo.jpeg");
+  background-image: url("images/Background\ Photo.jpeg");
 }
 
 #secondaryitem {
   grid-area: secondaryitem;
-  background-image: url("/images/My\ Photo.jpeg");
+  background-image: url("images/My\ Photo.jpeg");
 }
 
 
@@ -74,17 +74,17 @@ body {
 
 #part1 {
   grid-area: part1;
-  background-image: url("/images/My\ Photo.jpeg");
+  background-image: url("images/My\ Photo.jpeg");
 
 }
 #part2 {
   grid-area: part2;
-  background-image: url("/images/skill1.jpg");
+  background-image: url("images/skill1.jpg");
 }
 
 #part3 {
   grid-area: part3;
-  background-image: url("/images/skill2.jpeg");
+  background-image: url("images/skill2.jpeg");
 }
 
 #categoryGrid2 {
@@ -103,17 +103,17 @@ body {
 }
 #part4 {
   grid-area: part4;
-  background-image: url("/images/project1.jpg");
+  background-image: url("images/project1.jpg");
 }
 
 #part5 {
   grid-area: part5;
-  background-image: url("/images/project2.jpg");
+  background-image: url("images/project2.jpg");
 }
 
 #part6 {
   grid-area: part6;
-  background-image: url("/images/project3.png");
+  background-image: url("images/project3.png");
 }
 
 .categoryGridArea {
